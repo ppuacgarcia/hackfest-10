@@ -20,7 +20,6 @@ def restrict(rectangles: list[list[int]]):
                     if y0r2 > y0r1 > y1r2:
                         dif_y = y0r2-y0r1
                         rectangles[i][1] = rectangles[i][1] - dif_y
-                    if  
     return rectangles
 
 
